@@ -14,5 +14,5 @@ def get_mask_account(account_num: str) -> str:
     return f"**{account_num[-4:]}"
 
 
-print(get_mask_card_number(card_number))
-print(get_mask_account(account_number))
+#print(get_mask_card_number(card_number))
+#print(get_mask_account(account_number))
