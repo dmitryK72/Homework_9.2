@@ -17,7 +17,6 @@ def mask_account_card(number_card_account: str) -> str:
         return result
 
 
-print(mask_account_card("Счет 73654108430135874305"))
 
 
 def get_date(user_date: Union[str]) -> str:
@@ -27,4 +26,6 @@ def get_date(user_date: Union[str]) -> str:
     return new_date
 
 
-print(get_date("2024-03-11T02:26:18.671407"))
+if __name__ == "__main__":
+    print(mask_account_card("Счет 73654108430135874305"))
+    print(get_date("2024-09-19T02:26:18.671407"))
